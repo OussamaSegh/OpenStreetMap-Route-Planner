@@ -17,6 +17,7 @@ using namespace std::experimental;
 /**
  * Read an OSM map from file, returns nullopt for error
  */
+
 static std::optional<std::vector<std::byte>> ReadFile(const std::string& path)
 {
 	/* Read binary file and jump to the end */
