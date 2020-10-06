@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/osghaier/OpenStreetMap-Route-Planner/src/model.h
+vector
+-
+unordered_map
+-
+string
+-
+cstddef
+-
+
+/home/osghaier/OpenStreetMap-Route-Planner/src/route_model.h
+limits
+-
+cmath
+-
+unordered_map
+-
+model.h
+/home/osghaier/OpenStreetMap-Route-Planner/src/model.h
+iostream
+-
+
+/home/osghaier/OpenStreetMap-Route-Planner/src/route_planner.cpp
+route_planner.h
+/home/osghaier/OpenStreetMap-Route-Planner/src/route_planner.h
+algorithm
+-
+
+/home/osghaier/OpenStreetMap-Route-Planner/src/route_planner.h
+iostream
+-
+vector
+-
+string
+-
+route_model.h
+/home/osghaier/OpenStreetMap-Route-Planner/src/route_model.h
+

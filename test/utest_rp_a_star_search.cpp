@@ -53,7 +53,6 @@ class RoutePlannerTest : public ::testing::Test {
     float end_y = 0.9;
     RouteModel::Node* start_node = &model.FindClosestNode(start_x, start_y);
     RouteModel::Node* end_node = &model.FindClosestNode(end_x, end_y);
-
     // Construct another node in the middle of the map for testing.
     float mid_x = 0.5;
     float mid_y = 0.5;
@@ -100,10 +99,10 @@ TEST_F(RoutePlannerTest, TestConstructFinalPath) {
 
     // Test the path.
     EXPECT_EQ(path.size(), 3);
-    EXPECT_FLOAT_EQ(start_node->x, path.front().x);
-    EXPECT_FLOAT_EQ(start_node->y, path.front().y);
-    EXPECT_FLOAT_EQ(end_node->x, path.back().x);
-    EXPECT_FLOAT_EQ(end_node->y, path.back().y);
+    EXPECT_FLOAT_EQ(start_node->x, path.back().x);
+    EXPECT_FLOAT_EQ(start_node->y, path.back().y);
+    EXPECT_FLOAT_EQ(end_node->x, path.front().x);
+    EXPECT_FLOAT_EQ(end_node->y, path.front().y);
 }
 
 
@@ -114,9 +113,9 @@ TEST_F(RoutePlannerTest, TestAStarSearch) {
     RouteModel::Node path_start = model.path.front();
     RouteModel::Node path_end = model.path.back();
     // The start_node and end_node x, y values should be the same as in the path.
-    EXPECT_FLOAT_EQ(start_node->x, path_start.x);
-    EXPECT_FLOAT_EQ(start_node->y, path_start.y);
-    EXPECT_FLOAT_EQ(end_node->x, path_end.x);
-    EXPECT_FLOAT_EQ(end_node->y, path_end.y);
+    EXPECT_FLOAT_EQ(start_node->x, path_end.x);
+    EXPECT_FLOAT_EQ(start_node->y, path_end.y);
+    EXPECT_FLOAT_EQ(end_node->x, path_start.x);
+    EXPECT_FLOAT_EQ(end_node->y, path_start.y);
     EXPECT_FLOAT_EQ(route_planner.GetDistance(), 873.41565);
 }

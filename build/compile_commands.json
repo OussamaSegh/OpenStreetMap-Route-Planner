@@ -1,0 +1,72 @@
+[
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/include -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest  -g   -std=gnu++17 -o CMakeFiles/test.dir/test/utest_rp_a_star_search.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/test/utest_rp_a_star_search.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/test/utest_rp_a_star_search.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/include -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest  -g   -std=gnu++17 -o CMakeFiles/test.dir/src/route_planner.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/src/route_planner.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/src/route_planner.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/include -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest  -g   -std=gnu++17 -o CMakeFiles/test.dir/src/model.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/src/model.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/src/model.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/include -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest  -g   -std=gnu++17 -o CMakeFiles/test.dir/src/route_model.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/src/route_model.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/src/route_model.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /usr/include/cairo -isystem /usr/include/GraphicsMagick  -g   -std=gnu++17 -o CMakeFiles/OSM_A_star_search.dir/src/main.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/src/main.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/src/main.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /usr/include/cairo -isystem /usr/include/GraphicsMagick  -g   -std=gnu++17 -o CMakeFiles/OSM_A_star_search.dir/src/model.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/src/model.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/src/model.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /usr/include/cairo -isystem /usr/include/GraphicsMagick  -g   -std=gnu++17 -o CMakeFiles/OSM_A_star_search.dir/src/render.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/src/render.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/src/render.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /usr/include/cairo -isystem /usr/include/GraphicsMagick  -g   -std=gnu++17 -o CMakeFiles/OSM_A_star_search.dir/src/route_model.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/src/route_model.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/src/route_model.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src -isystem /usr/local/include/io2d -isystem /usr/include/cairo -isystem /usr/include/GraphicsMagick  -g   -std=gnu++17 -o CMakeFiles/OSM_A_star_search.dir/src/route_planner.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/src/route_planner.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/src/route_planner.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build/thirdparty/pugixml",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src  -g -fPIC   -std=gnu++17 -o CMakeFiles/pugixml-static.dir/src/pugixml.cpp.o -c /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src/pugixml.cpp",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/pugixml/src/pugixml.cpp"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build/thirdparty/googletest/googlemock",
+  "command": "/bin/g++-9   -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googlemock/include -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googlemock -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/include -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build/thirdparty/googletest/googlemock",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googlemock/include -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googlemock -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/include -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build/thirdparty/googletest/googletest",
+  "command": "/bin/g++-9   -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/include -isystem /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/osghaier/OpenStreetMap-Route-Planner/build/thirdparty/googletest/googletest",
+  "command": "/bin/g++-9   -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/include -I/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/osghaier/OpenStreetMap-Route-Planner/thirdparty/googletest/googletest/src/gtest-all.cc"
+}
+]
